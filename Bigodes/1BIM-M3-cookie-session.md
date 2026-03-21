@@ -8,3 +8,11 @@
   grandes volumes de dados sem as limitações de tamanho que os cookies impõem, além de serem mais fácil de gerenciar.
    Os cookies são mais adequados para guardar informações do lado do usuário, como preferências ou itens selecionados, porém os sessions são usados para informações 
   que necessitam de segurança, como login autoático, ou quando é preciso armazenar muitos dados, por não ter limite.
+
+## exercício 3
+
+   1. Na primeira execução o aparece a mensagem Cookie ainda não está disponivel, pois o Cookie foi criado, mas ainda não pode ser lido.
+   2. Atualizando a página o navegador ja salvou o Cookie, e ele manda de volta o valor 1.
+   3. Na vizualização dos Cookies do navegador, o Cookie contador aparece com valor e com um tempo de expiração de 1 hora.
+   4. Após limpar os Cookies e atualizar o navegador a mensagemm volta a ser Cookies ainda não disponivel, pois o Cookie foi apagado e precisa ser criado novamente.
+   O motivo do Cookie não aparecer na primeira execução é porque ele é enviado pelo servidor na resposta HHTP, mas só fica disponivel para o PHP na próxima requisição, ou seja só depois da página ser atualizada que o navegador devolve o Cookie ao servidor, ai sim ele pode ser acessado.
