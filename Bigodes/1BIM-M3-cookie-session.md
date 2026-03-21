@@ -15,4 +15,5 @@
    2. Atualizando a página o navegador ja salvou o Cookie, e ele manda de volta o valor 1.
    3. Na vizualização dos Cookies do navegador, o Cookie contador aparece com valor e com um tempo de expiração de 1 hora.
    4. Após limpar os Cookies e atualizar o navegador a mensagemm volta a ser Cookies ainda não disponivel, pois o Cookie foi apagado e precisa ser criado novamente.
+   
    O motivo do Cookie não aparecer na primeira execução é porque ele é enviado pelo servidor na resposta HHTP, mas só fica disponivel para o PHP na próxima requisição, ou seja só depois da página ser atualizada que o navegador devolve o Cookie ao servidor, ai sim ele pode ser acessado.
