@@ -17,3 +17,14 @@
    4. Após limpar os Cookies e atualizar o navegador a mensagemm volta a ser Cookies ainda não disponivel, pois o Cookie foi apagado e precisa ser criado novamente.
    
    O motivo do Cookie não aparecer na primeira execução é porque ele é enviado pelo servidor na resposta HHTP, mas só fica disponivel para o PHP na próxima requisição, ou seja só depois da página ser atualizada que o navegador devolve o Cookie ao servidor, ai sim ele pode ser acessado.
+
+## exercício 4 
+
+   As sessões (sessions) sao geralmente preferidas para autenticaçao sem sistemas web tradicionais, principalmente aplicaçoes renderizadas no sertvidor por oferecerem
+   um alto vivel de segurança, controle centralizado e facilidade de implementação. A autenticação baseada em sessão é "stateful" (com estado), o que significa que o
+   servidor lembra de cada usuário logado, armazenando os dados da sessão no lado do servidor
+   SEGURANÇA E REVOGAÇÃO IMEDIATA: A maior vantagem é a capacidade de revogar o acesso de um usuário instantaneamente. Se uma conta for comprometida ou um usuário fizer logout,
+   os dados da sessão podem ser apagados imeidatamente no servidor, invalidando o acesso de forma instantânea.
+   CONTROLE CENTRALIZADO: Como os dados da sessão são armazenados no servidor, a aplicação tem controle total sobre quem está logado, facilitando a gestão de sessões ativas 
+   e a segurança da informação.
+   
