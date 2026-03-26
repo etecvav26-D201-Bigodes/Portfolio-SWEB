@@ -9,6 +9,11 @@
    Os cookies são mais adequados para guardar informações do lado do usuário, como preferências ou itens selecionados, porém os sessions são usados para informações 
   que necessitam de segurança, como login autoático, ou quando é preciso armazenar muitos dados, por não ter limite.
 
+  ## exercício 2
+
+  Em uma loja virtual, cookies e sessions são usados de maneiras diferentes, mas se complementam. Para manter o usuário logado, o mais indicado é usar sessions, porque as informações ficam guardadas no servidor, o que é mais seguro; o cookie serve só para armazenar o identificador da sessão no navegador. No caso do carrinho de compras, também é melhor usar sessions, já que dá para guardar vários produtos com mais segurança enquanto o usuário navega pelo site. Já para preferências, como idioma ou tema, os cookies são mais adequados, porque ficam salvos no navegador por mais tempo. Assim, usar os dois juntos ajuda a deixar o sistema mais seguro e também melhora a experiência do usuário.
+
+
 ## exercício 3
 
    1. Na primeira execução o aparece a mensagem Cookie ainda não está disponivel, pois o Cookie foi criado, mas ainda não pode ser lido.
