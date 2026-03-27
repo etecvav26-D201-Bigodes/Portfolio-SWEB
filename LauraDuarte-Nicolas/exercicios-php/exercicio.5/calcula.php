@@ -27,13 +27,15 @@ $soma = 0;
 <h1>Resultado da Soma dos Fatoriais (POST)</h1>
 
 <?php
+
+#criar função para calcular fatorial 
 function fatorial($num) {
     $fat = 1;
 
     for ($i = 1; $i <= $num; $i++) {
         $fat = $fat * $i;
     }
-
+#devolver e gerar o resultado
     return $fat;
 }
 

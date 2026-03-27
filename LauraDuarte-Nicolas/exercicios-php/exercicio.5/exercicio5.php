@@ -1,3 +1,11 @@
+<!--
+Data: 27/03/2026
+Autor: Laura Duarte Arruda dos Santos e Nicolas Saraiva Batista
+Objetivo: Ler 5 números, calcular os fatoriais dos 5 números e somá-los.
+
+Exercício 5 - Leia 5 números inteiros e mostre a soma dos fatoriais desses números.
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
